@@ -33,7 +33,7 @@ conda activate mln2svg
 | PyTorch      | 2.4.0 + CUDA 11.8 |
 | OpenCV       | 4.11.0            |
 
-Tested on Linux with NVIDIA H800 GPU (84.9 GB VRAM)
+Tested on Linux with NVIDIA H800 GPU 
 
 ### 📊 Datasets
 
