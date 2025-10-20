@@ -1,18 +1,7 @@
-# 🧬 MLN2SVG: Multi-Level Network for Spatially Variable Gene Detection and Spatial Domain Identification
+# 🧬 MLN2SVG: Domain-aware spatially variable gene detection using contrastive variational autoencoder and multi-level neighbor
 
 **MLN2SVG** is a deep learning framework designed for the integrative analysis of spatial transcriptomics (ST) data.  
 It leverages *multi-level neighborhood modeling* and *graph-based learning* to identify **spatial domains** and **spatially variable genes (SVGs)** with high precision and robustness across multiple ST platforms.
-
----
-
-## 🚀 Key Features
-
-- 🔹 Multi-level graph neural architecture for spatial domain discovery  
-- 🔹 Joint embedding of expression and spatial context  
-- 🔹 Cross-platform compatibility (10x Visium, STARmap, SeqFISH, Stereo-seq, etc.)  
-- 🔹 Built-in evaluation using Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI)  
-- 🔹 High-resolution visualization of spatial domains (UMAP, PAGA, and tissue plots)  
-- 🔹 Modular and reproducible Python-based implementation  
 
 ---
 
@@ -46,32 +35,23 @@ conda activate mln2svg
 
 Tested on Linux with NVIDIA H800 GPU (84.9 GB VRAM)
 
-📊 Datasets
+### 📊 Datasets
 
 All datasets used in this study are publicly available:
 
 Human DLPFC dataset: spatialLIBD
-
 Human Breast Cancer dataset: 10x Genomics
-
 Mouse Brain (Visium): 10x Genomics
-
 Mouse Olfactory Bulb (Stereo-seq): STOmics
-
 Mouse Embryogenesis (SeqFISH): CRUK Spatial Atlas
-
 Mouse Visual Cortex (STARmap): Google Drive Link
 
 Detailed dataset descriptions are provided in Supplementary Table 1 of the manuscript.
 
-🖥️ Computing Environment
+### 🖥️ Computing Environment
 
 All experiments were conducted on a Linux workstation with:
-
 OS: Ubuntu 22.04
-
 GPU: NVIDIA H800 (84.9 GB)
-
 CUDA: 11.8
-
 Python: 3.8.0
