@@ -44,7 +44,7 @@ Human Breast Cancer dataset: 10x Genomics
 Mouse Brain (Visium): 10x Genomics
 Mouse Olfactory Bulb (Stereo-seq): STOmics
 Mouse Embryogenesis (SeqFISH): CRUK Spatial Atlas
-Mouse Visual Cortex (STARmap): Google Drive Link
+Mouse Visual Cortex (STARmap): 
 
 Detailed dataset descriptions are provided in Supplementary Table 1 of the manuscript.
 
